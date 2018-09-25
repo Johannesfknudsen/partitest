@@ -1,25 +1,123 @@
 <!DOCTYPE html>
 <html lang="da" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>PARTITEST</title>
-    <meta name="author" content="Johannes Farmer Knudsen & Emil Lou Hansen & Benjamin Von Barner Altenburg" />
-    <meta name="description" content="Den bedste paritest, som fortæller dig det sande parti, du skal stemme på." />
-    <meta name="keywords"  content="partitest,parti,stem,stemme,skole,unge,modern" />
-    <meta name="Resource-type" content="Document" />
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" type="text/css" href="styles.css" />
-    <link rel="icon" href="https://v4-alpha.getbootstrap.com/favicon.ico">
-    <meta name="theme-color" content="#0462ac">
-  </head>
-  <body>
-    <header>
+  <title>PARTITEST</title>
+  <meta name="author" content="Johannes Farmer Knudsen & Emil Lou Hansen & Benjamin Von Barner Altenburg" />
+  <meta name="description" content="Den bedste paritest, som fortæller dig det sande parti, du skal stemme på." />
+  <meta name="keywords" content="partitest,parti,stem,stemme,skole,unge,modern" />
+  <meta name="Resource-type" content="Document" />
 
-    </header>
-    <h1>TESTONG</h1>
-  </body>
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+  <link rel="icon" href="">
+  <meta name="theme-color" content="#0462ac">
+
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.2/fullpage.css">
+</head>
+
+<body>
+  <header>
+
+  </header>
+  <h1>TESTONG</h1>
+
+  <div class="Question Section">
+    <div id="fullpage">
+
+    </div>
+
+  </div>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.2/fullpage.js"></script>
+  <script type="text/javascript">
+    var myFullpage = new fullpage('#fullpage', {
+      anchors: ['1', '2', '3', '4', '5', '6', '7'],
+      sectionsColor: ['#f5ebeb', '#67c34b', '#7BAABE', '#a25858', '#4651e9', '#b25db4', '#ffc700'],
+      navigation: true,
+      navigationPosition: 'right'
+
+
+      //Navigation
+      menu: '#menu',
+      lockAnchors: false,
+      anchors: ['firstPage', 'secondPage'],
+      navigation: false,
+      navigationPosition: 'right',
+      navigationTooltips: ['firstSlide', 'secondSlide'],
+      showActiveTooltip: false,
+      slidesNavigation: false,
+      slidesNavPosition: 'bottom',
+
+      //Scrolling
+      css3: true,
+      scrollingSpeed: 700,
+      autoScrolling: true,
+      fitToSection: true,
+      fitToSectionDelay: 1000,
+      scrollBar: false,
+      easing: 'easeInOutCubic',
+      easingcss3: 'ease',
+      loopBottom: false,
+      loopTop: false,
+      loopHorizontal: true,
+      continuousVertical: false,
+      continuousHorizontal: false,
+      scrollHorizontally: false,
+      interlockedSlides: false,
+      dragAndMove: false,
+      offsetSections: false,
+      resetSliders: false,
+      fadingEffect: false,
+      normalScrollElements: '#element1, .element2',
+      scrollOverflow: false,
+      scrollOverflowReset: false,
+      scrollOverflowOptions: null,
+      touchSensitivity: 15,
+      normalScrollElementTouchThreshold: 5,
+      bigSectionsDestination: null,
+
+      //Accessibility
+      keyboardScrolling: true,
+      animateAnchor: true,
+      recordHistory: true,
+
+      //Design
+      controlArrows: true,
+      verticalCentered: true,
+      sectionsColor: ['#ccc', '#fff'],
+      paddingTop: '3em',
+      paddingBottom: '10px',
+      fixedElements: '#header, .footer',
+      responsiveWidth: 0,
+      responsiveHeight: 0,
+      responsiveSlides: false,
+      parallax: false,
+      parallaxOptions: {
+        type: 'reveal',
+        percentage: 62,
+        property: 'translate'
+      },
+
+      //Custom selectors
+      sectionSelector: '.section',
+      slideSelector: '.slide',
+
+      lazyLoading: true,
+
+      //events
+      onLeave: function(origin, destination, direction) {},
+      afterLoad: function(origin, destination, direction) {},
+      afterRender: function() {},
+      afterResize: function(width, height) {},
+      afterResponsive: function(isResponsive) {},
+      afterSlideLoad: function(section, origin, destination, direction) {},
+      onSlideLeave: function(section, origin, destination, direction) {}
+    });
+  </script>
+</body>
+
 </html>
