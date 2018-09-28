@@ -1,8 +1,21 @@
-header{
-    background-color: white;    
-}
+
 
 Body{
     background-color: whitesmoke;   
 }
 
+h1{
+    text-align: center;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 600%;
+}
+#rcorners {
+    border-radius: 75px;
+    background: white;
+    padding: 100px; 
+    width: 445px;
+    height: 25px;
+    padding-top: 1px;
+    padding-left: 35px;
+    margin: auto;
+    box-shadow: 2px 5px 5px #4e4e4f;
