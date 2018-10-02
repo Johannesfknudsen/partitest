@@ -11,11 +11,11 @@ h1{
 }
 #rcorners {
     border-radius: 75px;
-    background: white;
+    background:#edeeef;
     padding: 100px; 
     width: 445px;
     height: 25px;
-    padding-top: 1px;
+    padding-top: 0.5px;
     padding-left: 35px;
     margin: auto;
     box-shadow: 2px 5px 5px #4e4e4f;
