@@ -79,3 +79,8 @@ var myFullpage = new fullpage('#fullpage', {
   // afterSlideLoad: function(section, origin, destination, direction) {},
   // onSlideLeave: function(section, origin, destination, direction) {}
 });
+
+//disabling scrolling down
+fullpage_api.setAllowScrolling(false, 'up');
+//disabling keyboard scrolling down
+fullpage_api.setKeyboardScrolling(false, 'up');
