@@ -1,7 +1,5 @@
 /* Basic tekst og position  */
-Body{
-    background-color: whitesmoke;
-}
+
 
 h2{
     text-align: center;
@@ -13,8 +11,9 @@ h1{
     text-align: center;
     padding-bottom: 400px;
     font-family: serif;
-
-
+}
+.section{
+		text-align:center;
 }
 /* Fixed Header */
 #rcorners {
@@ -38,7 +37,29 @@ h1{
   z-index: 9;
   text-align: center;
   padding: 20px 0 0 0;
-
   top: 0px;
+}
 
+#section0{
+  background: -webkit-gradient(linear, top left, bottom left, from(#F5F5F5), to(#969AC6));
+	background: -webkit-linear-gradient(#F5F5F5, #969AC6);
+	background: linear-gradient(#F5F5F5,#969AC6);
+}
+
+#section1{
+  background: -webkit-gradient(linear, top left, bottom left, from(#969AC6), to(#76c2bd));
+	background: -webkit-linear-gradient(#969AC6, #76c2bd);
+	background: linear-gradient(#969AC6,#76c2bd);
+}
+
+#section2{
+  background: -webkit-gradient(linear, top left, bottom left, from(#76c2bd), to(#c69696));
+	background: -webkit-linear-gradient(#76c2bd, #c69696);
+	background: linear-gradient(#76c2bd,#c69696);
+}
+
+#section3{
+  background: -webkit-gradient(linear, top left, bottom left, from(#c69696), to(#8cbe7b));
+	background: -webkit-linear-gradient(#c69696, #8cbe7b);
+	background: linear-gradient(#c69696,#8cbe7b);
 }

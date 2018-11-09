@@ -1,7 +1,7 @@
 var myFullpage = new fullpage('#fullpage', {
   licenseKey: 'OPEN-SOURCE-GPLV3-LICENSE',
   anchors: ['1', '2', '3', '4', '5', '6', '7'],
-  sectionsColor: ['#f5ebeb', '#67c34b', '#7BAABE', '#a25858', '#4651e9', '#b25db4', '#ffc700'],
+  // sectionsColor: ['#f5ebeb', '#67c34b', '#7BAABE', '#a25858', '#4651e9', '#b25db4', '#ffc700'],
   navigation: true,
   navigationPosition: 'right',
 
