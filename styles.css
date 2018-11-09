@@ -1,3 +1,4 @@
+/* Basic tekst og position  */
 Body{
     background-color: whitesmoke;
 }
@@ -15,6 +16,7 @@ h1{
 
 
 }
+/* Fixed Header */
 #rcorners {
     border-radius: 75px;
     background:#edeeef;
@@ -32,8 +34,11 @@ h1{
   height: 50px;
   display: block;
   width: 100%;
-  background: #edeeef;
+  background: rgba(#ffffff, 0);
   z-index: 9;
   text-align: center;
   padding: 20px 0 0 0;
+
+  top: 0px;
+
 }
