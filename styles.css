@@ -1,7 +1,5 @@
-
-
 Body{
-    background-color: whitesmoke;   
+    background-color: whitesmoke;
 }
 
 h2{
@@ -11,16 +9,16 @@ h2{
 }
 
 h1{
-    text-align: center; 
+    text-align: center;
     padding-bottom: 400px;
     font-family: serif;
-    
-    
+
+
 }
 #rcorners {
     border-radius: 75px;
     background:#edeeef;
-    padding: 100px; 
+    padding: 100px;
     width: 445px;
     height: 25px;
     padding-top: 0.5px;
@@ -29,3 +27,13 @@ h1{
     box-shadow: 2px 5px 5px #4e4e4f;
 }
 
+#header{
+  position: fixed;
+  height: 50px;
+  display: block;
+  width: 100%;
+  background: #edeeef;
+  z-index: 9;
+  text-align: center;
+  padding: 20px 0 0 0;
+}
