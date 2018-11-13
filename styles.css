@@ -1,4 +1,17 @@
 /* Basic tekst og position  */
+html {
+  font-size: 16px;
+}
+@media screen and (min-width: 320px) {
+  html {
+    font-size: calc(16px + 6 * ((100vw - 320px) / 680));
+  }
+}
+@media screen and (min-width: 1000px) {
+  html {
+    font-size: 22px;
+  }
+}
 
 h2{
     text-align: center;
@@ -9,7 +22,8 @@ h2{
 h1{
     text-align: center;
     padding-bottom: 15%;
-    font-family: serif;
+    font-family: 'IM Fell DW Pica', serif;
+    font-size: 4vmin
 }
 .section{
 		text-align: center;
@@ -17,7 +31,7 @@ h1{
 /* Fixed Header */
 #header{
   position: fixed;
-  height: 10vh;
+  height: 12vh;
   display: block;
   width: 100%;
   background: rgba(#ffffff, 0);
@@ -29,23 +43,24 @@ h1{
 #rcorners {
     border-radius: 75px;
     background:#edeeef;
-    padding-top: 0.5px;
-    width: 30vw;
+    padding-top: 0.0%;
+    width: 50vh;
     height: 100%;
     margin: auto;
-    box-shadow: 2px 5px 5px #4e4e4f;
+    box-shadow: 0.5vmin 0.75vmin 0.75vmin #4e4e4f;
 
     text-align: center;
-    font-family: "Nunito Sans", sans-serif;
-    font-size: 8vmin;
-    font-weight: bold;
+    /* font-family: "Nunito Sans", sans-serif; */
+    font-family: 'Pacifico', cursive;
+    font-size: 8vh;
+    font-weight: normal;
 
 }
 
 #section0{
-  background: -webkit-gradient(linear, top left, bottom left, from(#F5F5F5), to(#969AC6));
-	background: -webkit-linear-gradient(#F5F5F5, #969AC6);
-	background: linear-gradient(#F5F5F5,#969AC6);
+  background: -webkit-gradient(linear, top left, bottom left, from(#cbd4bb), to(#969AC6));
+	background: -webkit-linear-gradient(#cbd4bb, #969AC6);
+	background: linear-gradient(#cbd4bb,#969AC6);
 }
 
 #section1{
@@ -82,6 +97,3 @@ h1{
 	background: -webkit-linear-gradient(#d488d4, #d68ba9);
 	background: linear-gradient(#d488d4, #d68ba9);
 }
-
-
-
