@@ -1,3 +1,16 @@
+/* Variabler */
+:root {
+  --color0: #cbd4ba;
+  --color1: #d4c7ba;
+  --color2: #bad4d1;
+  --color3: #b9bdd4;
+  --color4: #bdbad4;
+  --color5: #d4c1ba;
+  --color6: #d0bad4;
+  --color7: #b9cfd4;
+}
+
+
 /* Basic tekst og position  */
 html {
   font-size: 16px;
@@ -58,6 +71,51 @@ h1{
 }
 
 #section0{
+  background: -webkit-gradient(linear, top left, bottom left, from(var(--color0)), to(var(--color1)));
+	background: -webkit-linear-gradient(var(--color0), var(--color1));
+	background: linear-gradient(var(--color0),var(--color1));
+}
+
+#section1{
+  background: -webkit-gradient(linear, top left, bottom left, from(var(--color1)), to(var(--color2)));
+	background: -webkit-linear-gradient(var(--color1), var(--color2));
+	background: linear-gradient(var(--color1),var(--color2));
+}
+
+#section2{
+  background: -webkit-gradient(linear, top left, bottom left, from(var(--color2)), to(var(--color3)));
+	background: -webkit-linear-gradient(var(--color2), var(--color3));
+	background: linear-gradient(var(--color2),var(--color3));
+}
+
+#section3{
+  background: -webkit-gradient(linear, top left, bottom left, from(var(--color3)), to(var(--color4)));
+	background: -webkit-linear-gradient(var(--color3), var(--color4));
+	background: linear-gradient(var(--color3),var(--color4));
+}
+
+#section4{
+  background: -webkit-gradient(linear, top left, bottom left, from(var(--color4)), to(var(--color5)));
+	background: -webkit-linear-gradient(var(--color4), var(--color5));
+	background: linear-gradient(var(--color4),var(--color5));
+}
+
+#section5{
+  background: -webkit-gradient(linear, top left, bottom left, from(var(--color5)), to(var(--color6)));
+	background: -webkit-linear-gradient(var(--color5), var(--color6));
+	background: linear-gradient(var(--color5),var(--color6));
+}
+
+#section6{
+  background: -webkit-gradient(linear, top left, bottom left, from(var(--color6)), to(var(--color7)));
+	background: -webkit-linear-gradient(var(--color6), var(--color7);
+	background: linear-gradient(var(--color6),var(--color7));
+}
+
+
+
+
+/* #section0{
   background: -webkit-gradient(linear, top left, bottom left, from(#cbd4bb), to(#969AC6));
 	background: -webkit-linear-gradient(#cbd4bb, #969AC6);
 	background: linear-gradient(#cbd4bb,#969AC6);
@@ -93,7 +151,7 @@ h1{
 }
 
 #section6{
-  background: -webkit-gradient(linear, top left, bottom left, from(#d488d4), to(#d68ba9));
-	background: -webkit-linear-gradient(#d488d4, #d68ba9);
-	background: linear-gradient(#d488d4, #d68ba9);
-}
+  background: -webkit-gradient(linear, top left, bottom left, from(#d488d4), to(#d68b8b));
+	background: -webkit-linear-gradient(#d488d4, #d68b8b);
+	background: linear-gradient(#d488d4, #d68b8b);
+} */
