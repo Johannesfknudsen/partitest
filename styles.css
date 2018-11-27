@@ -108,7 +108,7 @@ h1{
 
 #section6{
   background: -webkit-gradient(linear, top left, bottom left, from(var(--color6)), to(var(--color7)));
-	background: -webkit-linear-gradient(var(--color6), var(--color7);
+	background: -webkit-linear-gradient(var(--color6), var(--color7));
 	background: linear-gradient(var(--color6),var(--color7));
 }
 
