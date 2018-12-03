@@ -7,7 +7,7 @@
   "theme_color": "#0462ac",
   "description": "Den bedste paritest, som fortæller dig det sande parti, du skal stemme på.",
   "icons": [{
-    "src": "images/touch/homescreen144.png",
+    "src": "images/homescreen144.png",
     "sizes": "144x144",
     "type": "image/png"
   }]
