@@ -1,0 +1,14 @@
+{
+  "name": "Partitest",
+  "short_name": "Partitest",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#0462ac",
+  "theme_color": "#0462ac",
+  "description": "Den bedste paritest, som fortæller dig det sande parti, du skal stemme på.",
+  "icons": [{
+    "src": "images/touch/homescreen48.png",
+    "sizes": "48x48",
+    "type": "image/png"
+  }]
+}
