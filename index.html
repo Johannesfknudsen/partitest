@@ -23,7 +23,7 @@ kan man gå til https://johannesfknudsen.github.io/partitest/ -->
 
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="stylesheet" type="text/css" href="css/styles.css" />
-  <link rel="stylesheet" href="/css/slider.scss">
+  <link rel="stylesheet" href="css/slider.css">
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.2/fullpage.css">
   <link href="https://fonts.googleapis.com/css?family=IM+Fell+DW+Pica:400,400i|Pacifico" rel="stylesheet">
 </head>
@@ -50,7 +50,12 @@ kan man gå til https://johannesfknudsen.github.io/partitest/ -->
       <div class="section active" id="section0">
         <h1>Ønsker du en lavere, højere eller samme niveau af skat?</h1>
         <div class="answer">
+          <!-- <div class="uenig"><p>Helt uenig</p></div>
+          <div class="enig"><p>Helt enig</p></div> -->
           <input type='range' min='1' max='5' value='1' step='1' class="n n5"/>
+          <td>Helt enig</td><td>Delvis enig</td><td>Hverken eller</td><td>Delvis uenig</td><td>Helt uenig</td>
+          <p class="uenig">Helt uenig</p>
+          <p class="enig">Helt enig</p>
         </div>
         <div class="container">
           <td><input type="radio" name="q0" value="1">1</td>
