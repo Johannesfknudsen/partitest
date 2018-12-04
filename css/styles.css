@@ -90,6 +90,10 @@ h1{
   padding: 0.75em;
 }
 /* ^For web app^ */
+
+
+
+/* section colors */
 #section0{
   background: -webkit-gradient(linear, top left, bottom left, from(var(--color0)), to(var(--color1)));
 	background: -webkit-linear-gradient(var(--color0), var(--color1));
