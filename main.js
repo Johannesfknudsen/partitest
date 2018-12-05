@@ -1,20 +1,21 @@
 // document.cookie = "username=";
-//
-// var point = 0;
-// // form
-//
-// function myFunction() {
-//   // Get the checkbox
-//   var checkBox = document.getElementById("myCheck");
-//
-//   // If the checkbox is checked, display the output text
-//   if (checkBox.checked == true){
-//     point += 1;
-//   } else {
-//     point -= 1;
-//   }
-// }
 
+/* På baggrund af https://www.altinget.dk/images/article/150492/25806.jpg
+Partibogstaver: https://www.ft.dk/da/partier/om-politiske-partier/partigruppernes-bogstaver
+A - Socialdemokratiet
+B - Radikale Venstre
+C - Det Konservative Folkeparti
+D - Nye Borgerlige
+F - SF ‒ Socialistisk Folkeparti
+I - Liberal Alliance
+K - Kristendemokraterne
+O - Dansk Folkeparti
+V - Venstre, Danmarks Liberale Parti
+Ø - Enhedslisten ‒ De Rød-Grønne
+Å - Alternativet
+*/
+var partiesFordeling = ["Enhedslisten", "Socialistisk Folkeparti", "Alternativet", "Socialdemokratiet", " Radikale Venstre", "Dansk Folkeparti", "Venstre", "Det Konservative Folkeparti", "Liberal Alliance"];
+var partiesValue = ["Alternativet", "Radikale Venstre", "Enhedslisten", "Socialistisk Folkeparti", "Socialdemokratiet", "Det Konservative Folkeparti", "Liberal Alliance", "Venstre", "Dansk Folkeparti"];
 // Get value from sliders
 answer = document.getElementsByClassName('answer');
 
