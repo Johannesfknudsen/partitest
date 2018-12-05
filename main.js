@@ -32,12 +32,12 @@ answer.onFocus = function() {
 
 // var output = document.getElementById("rcorners");
 // slider0.oninput = document.getElementById("rcorners").innerHTML = slider0;
-// output.innerHTML = slider0.value; // Display the default slider value
+answer.innerHTML = slider0; // Display the default slider value
 
 // Update the current slider value (each time you drag the slider handle)
-// slider.oninput = function() {
-//     output.innerHTML = this.value;
-// };
+slider0.oninput = function() {
+  answer.innerHTML = this.value;
+};
 
 // slider0.oninput = function() {
 //    // output.innerHTML = this.value;
