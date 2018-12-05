@@ -1,4 +1,4 @@
-/* Variabler */
+/* Variabler til bestemmelse af farver på sections */
 :root {
   --color0: #cbd4ba;
   --color1: #d4c7ba;
@@ -8,6 +8,7 @@
   --color5: #d4c1ba;
   --color6: #d0bad4;
   --color7: #b9cfd4;
+  --color8: #bbd4b9;
 }
 
 
@@ -15,6 +16,7 @@
 html {
   font-size: 16px;
 }
+/* Sørger for at elenemter hverken bliver for store eller små efterhånden som det bliver større  */
 @media screen and (min-width: 320px) {
   html {
     font-size: calc(16px + 6 * ((100vw - 320px) / 680));
@@ -25,21 +27,22 @@ html {
     font-size: 22px;
   }
 }
-
-h2{
-    text-align: center;
-    font-family: "Nunito Sans", sans-serif;
-    font-size: 600%;
-}
-
 h1{
     text-align: center;
     padding-bottom: 15%;
     font-family: 'IM Fell DW Pica', serif;
     font-size: 4vmin
 }
+h2{
+    text-align: center;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 600%;
+}
 .section{
 		text-align: center;
+}
+h1[class="section"] {
+  width: auto;
 }
 /* Fixed Header */
 #header{
@@ -53,6 +56,7 @@ h1{
   padding: 20px 0 0 0;
   top: 0px;
 }
+/* Runder hjørner for header logo felt */
 #rcorners {
     border-radius: 75px;
     background:#edeeef;
@@ -69,31 +73,9 @@ h1{
     font-weight: normal;
 
 }
-/* For web app */
-.hidden {
-  display: none !important;
-}
-
-#installContainer {
-  position: absolute;
-  bottom: 1em;
-  display: flex;
-  justify-content: center;
-  width: 100%;
-}
-
-#installContainer button {
-  background-color: inherit;
-  border: 1px solid white;
-  color: white;
-  font-size: 1em;
-  padding: 0.75em;
-}
-/* ^For web app^ */
-
-
 
 /* section colors */
+/* Der er tre liner for definition af de lineære gradient. En til hver slags tekonogi. Det sørger for at det virker på alle typer enheder og alle nyere browsers. */
 #section0{
   background: -webkit-gradient(linear, top left, bottom left, from(var(--color0)), to(var(--color1)));
 	background: -webkit-linear-gradient(var(--color0), var(--color1));
@@ -136,46 +118,8 @@ h1{
 	background: linear-gradient(var(--color6),var(--color7));
 }
 
-
-
-
-/* #section0{
-  background: -webkit-gradient(linear, top left, bottom left, from(#cbd4bb), to(#969AC6));
-	background: -webkit-linear-gradient(#cbd4bb, #969AC6);
-	background: linear-gradient(#cbd4bb,#969AC6);
+#section7{
+  background: -webkit-gradient(linear, top left, bottom left, from(var(--color7)), to(var(--color8)));
+	background: -webkit-linear-gradient(var(--color7), var(--color8));
+	background: linear-gradient(var(--color7),var(--color8));
 }
-
-#section1{
-  background: -webkit-gradient(linear, top left, bottom left, from(#969AC6), to(#76c2bd));
-	background: -webkit-linear-gradient(#969AC6, #76c2bd);
-	background: linear-gradient(#969AC6,#76c2bd);
-}
-
-#section2{
-  background: -webkit-gradient(linear, top left, bottom left, from(#76c2bd), to(#c69696));
-	background: -webkit-linear-gradient(#76c2bd, #c69696);
-	background: linear-gradient(#76c2bd,#c69696);
-}
-
-#section3{
-  background: -webkit-gradient(linear, top left, bottom left, from(#c69696), to(#8cbe7b));
-	background: -webkit-linear-gradient(#c69696, #8cbe7b);
-	background: linear-gradient(#c69696,#8cbe7b);
-}
-#section4{
-  background: -webkit-gradient(linear, top left, bottom left, from(#8cbe7b), to(#84d1c9));
-	background: -webkit-linear-gradient(#8cbe7b, #84d1c9);
-	background: linear-gradient(#8cbe7b, #84d1c9 );
-}
-
-#section5{
-  background: -webkit-gradient(linear, top left, bottom left, from(#84d1c9), to(#d488d4));
-	background: -webkit-linear-gradient(#84d1c9, #d488d4);
-	background: linear-gradient(#84d1c9, #d488d4 );
-}
-
-#section6{
-  background: -webkit-gradient(linear, top left, bottom left, from(#d488d4), to(#d68b8b));
-	background: -webkit-linear-gradient(#d488d4, #d68b8b);
-	background: linear-gradient(#d488d4, #d68b8b);
-} */
