@@ -34,95 +34,106 @@ kan man gå til https://johannesfknudsen.github.io/partitest/ -->
   <div id="header">
     <div id="rcorners">PartiTesten</div>
   </div>
-
   <div class="Question Section">
     <div id="fullpage">
-      <!-- Install button, hidden by default -->
-      <div id="installContainer" class="hidden">
-        <button id="butInstall" type="button">
-          Install
-        </button>
+      <div class="section active" id="section0">
+        <h1>Ønsker du en lavere, højere eller samme niveau af skat?</h1>
+        <div class="answer">
+          <input type='range' name="range0" min='1' max='5' value='1' step='1' class="n n5" />
+        </div>
+        <table class="tex">
+          <td>Helt enig</td>
+          <td>Delvis enig</td>
+          <td>Hverken/Eller</td>
+          <td>Delvis uenig</td>
+          <td>Helt uenig</td>
+        </table>
+        <!--Hvis højere Enhedslisten, SF; hvis lavere Blå blok; hvis samme niveau: Resten af rød blok -->
       </div>
-      <p id="requireHTTPS" class="hidden">
-        <b>STOP!</b> This page <b>must</b> be served over HTTPS.
-        Please <a>reload this page via HTTPS</a>.
-        </td>
-        <div class="section active" id="section0">
-          <h1>Ønsker du en lavere, højere eller samme niveau af skat?</h1>
-          <div class="answer">
-            <!-- <div class="uenig"><p>Helt uenig</p></div>
-          <div class="enig"><p>Helt enig</p></div> -->
-            <input type='range' min='1' max='5' value='1' step='1' class="n n5" />
-          </div>
-          <table class="tex">
-            <td>Helt enig</td>
-            <td>Delvis enig</td>
-            <td>Hverken/Eller</td>
-            <td>Delvis uenig</td>
-            <td>Helt uenig</td>
-          </table>
-          <!--Hvis højere Enhedslisten, SF; hvis lavere Blå blok; hvis samme niveau: Resten af rød blok -->
+      <div class="section" id="section1">
+        <h1>Syntes du der skal bruges flere penge på uddannelserne?</h1> <!-- Hvis ja: rød blok; hvis nej: blå blok -->
+        <div class="answer">
+          <input type='range' name="range1" min='1' max='5' value='1' step='1' class="n n5" />
         </div>
-        <div class="section" id="section1">
-          <h1>Syntes du der skal bruges flere penge på uddannelserne?</h1> <!-- Hvis ja: rød blok; hvis nej: blå blok -->
-          <div class="container">
-            <td><input type="radio" name="q1" value="1">1</td>
-            <td><input type="radio" name="q1" value="2">2</td>
-            <td><input type="radio" name="q1" value="3">3</td>
-            <td><input type="radio" name="q1" value="4">4</td>
-            <td><input type="radio" name="q1" value="5">5</td>
-          </div>
+        <table class="tex">
+          <td>Helt enig</td>
+          <td>Delvis enig</td>
+          <td>Hverken/Eller</td>
+          <td>Delvis uenig</td>
+          <td>Helt uenig</td>
+        </table>
+      </div>
+      <div class="section" id="section2">
+        <h1>Er den nye DR-nedskæring en god idé?</h1> <!-- Hvis ja: blå blok; hvis nej: rød blok-->
+        <div class="answer">
+          <input type='range' name="range2" min='1' max='5' value='1' step='1' class="n n5" />
         </div>
-        <div class="section" id="section2">
-          <h1>Er den nye DR-nedskæring en god idé?</h1> <!-- Hvis ja: blå blok; hvis nej: rød blok-->
-          <div class="container">
-            <td><input type="radio" name="q2" value="1">1</td>
-            <td><input type="radio" name="q2" value="2">2</td>
-            <td><input type="radio" name="q2" value="3">3</td>
-            <td><input type="radio" name="q2" value="4">4</td>
-            <td><input type="radio" name="q2" value="5">5</td>
-          </div>
+        <table class="tex">
+          <td>Helt enig</td>
+          <td>Delvis enig</td>
+          <td>Hverken/Eller</td>
+          <td>Delvis uenig</td>
+          <td>Helt uenig</td>
+        </table>
+      </div>
+      <div class="section" id="section3">
+        <h1>Syntes du at de nyværene krav til dansk statsborgerskab er i orden, og syntes du det er i orden at man skal kunne give hånd for at blive danskstatsborger?</h1>
+        <div class="answer">
+          <input type='range' name="range3" min='1' max='5' value='1' step='1' class="n n5" />
         </div>
-        <div class="section" id="section3">
-          <h1>Syntes du at de nyværene krav til dansk statsborgerskab er i orden, og syntes du det er i orden at man skal kunne give hånd for at blive danskstatsborger?</h1>
-          <div class="container">
-            <td><input type="radio" name="q3" value="1">1</td>
-            <td><input type="radio" name="q3" value="2">2</td>
-            <td><input type="radio" name="q3" value="3">3</td>
-            <td><input type="radio" name="q3" value="4">4</td>
-            <td><input type="radio" name="q3" value="5">5</td>
-          </div>
+        <table class="tex">
+          <td>Helt enig</td>
+          <td>Delvis enig</td>
+          <td>Hverken/Eller</td>
+          <td>Delvis uenig</td>
+          <td>Helt uenig</td>
+        </table>
+      </div>
+      <div class="section" id="section4">
+        <h1>Skal topskatten lettes? <br> (blive lavere)</h1>
+        <div class="answer">
+          <input type='range' name="range4" min='1' max='5' value='1' step='1' class="n n5" />
         </div>
-        <div class="section" id="section4">
-          <h1>Skal topskatten lettes? <br> (blive lavere)</h1>
-          <div class="container">
-            <td><input type="radio" name="q4" value="1">1</td>
-            <td><input type="radio" name="q4" value="2">2</td>
-            <td><input type="radio" name="q4" value="3">3</td>
-            <td><input type="radio" name="q4" value="4">4</td>
-            <td><input type="radio" name="q4" value="5">5</td>
-          </div>
+        <table class="tex">
+          <td>Helt enig</td>
+          <td>Delvis enig</td>
+          <td>Hverken/Eller</td>
+          <td>Delvis uenig</td>
+          <td>Helt uenig</td>
+        </table>
+      </div>
+      <div class="section" id="section5">
+        <h1>Skal persionsalderen hæves?</h1>
+        <div class="answer">
+          <input type='range' name="range5" min='1' max='5' value='1' step='1' class="n n5" />
         </div>
-        <div class="section" id="section5">
-          <h1>Skal persionsalderen hæves?</h1>
-          <div class="container">
-            <td><input type="radio" name="q5" value="1">1</td>
-            <td><input type="radio" name="q5" value="2">2</td>
-            <td><input type="radio" name="q5" value="3">3</td>
-            <td><input type="radio" name="q5" value="4">4</td>
-            <td><input type="radio" name="q5" value="5">5</td>
-          </div>
+        <table class="tex">
+          <td>Helt enig</td>
+          <td>Delvis enig</td>
+          <td>Hverken/Eller</td>
+          <td>Delvis uenig</td>
+          <td>Helt uenig</td>
+        </table>
+      </div>
+      <div class="section" id="section6">
+        <h1>Skal vi generelt have en bedre obrustet politi, og mere grænsekontrol?</h1>
+        <div class="answer">
+          <input type='range' name="range6" min='1' max='5' value='1' step='1' class="n n5" />
         </div>
-        <div class="section" id="section6">
-          <h1>Skal vi generelt have en bedre obrustet politi, og mere grænsekontrol?</h1>
-          <div class="container">
-            <td><input type="radio" name="q6" value="1">1</td>
-            <td><input type="radio" name="q6" value="2">2</td>
-            <td><input type="radio" name="q6" value="3">3</td>
-            <td><input type="radio" name="q6" value="4">4</td>
-            <td><input type="radio" name="q6" value="5">5</td>
-          </div>
+        <table class="tex">
+          <td>Helt enig</td>
+          <td>Delvis enig</td>
+          <td>Hverken/Eller</td>
+          <td>Delvis uenig</td>
+          <td>Helt uenig</td>
+        </table>
+      </div>
+      <div class="section" id="section7">
+        <div class="submit">
+          <h1>Nu har du mulighed for at se resulatet</h1>
+          <button type="button" name="submit">FÅ DIT SVAR</button>
         </div>
+      </div>
     </div>
 
   </div>
