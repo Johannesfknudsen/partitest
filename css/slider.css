@@ -1,3 +1,6 @@
+/* Dette dokument bestemmer udsenet og layout af den slider man svarer sprøgsmålende via */
+
+/* Denne lille sektion af tre parametre bestemmer hvor den beskrivende tekst under slider er placeret */
 .enig {
   text-align: left;
 }
@@ -12,13 +15,15 @@
   align-items: center;
   align-content: center;
 }
-
+/* Bestemmer størrelsen og placeringen af slideren */
 .answer {
   position: relative;
   width: 50%;
   margin-left: -25%;
   left: 50%;
 }
+
+/* En hel masse css for at lave slideren */
 input[type='range'].n {
   display: block;
   margin: 1em auto;

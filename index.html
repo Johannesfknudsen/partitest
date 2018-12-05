@@ -21,7 +21,6 @@ kan man gå til https://johannesfknudsen.github.io/partitest/ -->
   <link rel="icon" href="https://material.io/tools/icons/static/icons/baseline-graphic_eq-24px.svg">
   <!-- <link rel="icon" href="https://material.io/tools/icons/static/icons/baseline-hdr_on-24px.svg"> -->
 
-  <link rel="manifest" href="manifest.webmanifest">
   <link rel="stylesheet" type="text/css" href="css/styles.css" />
   <link rel="stylesheet" href="css/slider.css">
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.2/fullpage.css">
@@ -30,7 +29,6 @@ kan man gå til https://johannesfknudsen.github.io/partitest/ -->
 
 
 <body>
-  <script type="text/javascript" src="app.js" charset="utf-8"></script>
   <div id="header">
     <div id="rcorners">PartiTesten</div>
   </div>
@@ -39,7 +37,7 @@ kan man gå til https://johannesfknudsen.github.io/partitest/ -->
       <div class="section active" id="section0">
         <h1>Ønsker du en lavere, højere eller samme niveau af skat?</h1>
         <div class="answer">
-          <input type='range' name="range0" min='1' max='5' value='1' step='1' class="n n5" />
+          <input type='range' id="range0" min='1' max='5' value='1' step='1' class="n n5" />
         </div>
         <table class="tex">
           <td>Helt enig</td>
@@ -53,7 +51,7 @@ kan man gå til https://johannesfknudsen.github.io/partitest/ -->
       <div class="section" id="section1">
         <h1>Syntes du der skal bruges flere penge på uddannelserne?</h1> <!-- Hvis ja: rød blok; hvis nej: blå blok -->
         <div class="answer">
-          <input type='range' name="range1" min='1' max='5' value='1' step='1' class="n n5" />
+          <input type='range' id="range1" min='1' max='5' value='1' step='1' class="n n5" />
         </div>
         <table class="tex">
           <td>Helt enig</td>
@@ -66,7 +64,7 @@ kan man gå til https://johannesfknudsen.github.io/partitest/ -->
       <div class="section" id="section2">
         <h1>Er den nye DR-nedskæring en god idé?</h1> <!-- Hvis ja: blå blok; hvis nej: rød blok-->
         <div class="answer">
-          <input type='range' name="range2" min='1' max='5' value='1' step='1' class="n n5" />
+          <input type='range' id="range2" min='1' max='5' value='1' step='1' class="n n5" />
         </div>
         <table class="tex">
           <td>Helt enig</td>
@@ -79,7 +77,7 @@ kan man gå til https://johannesfknudsen.github.io/partitest/ -->
       <div class="section" id="section3">
         <h1>Syntes du at de nyværene krav til dansk statsborgerskab er i orden, og syntes du det er i orden at man skal kunne give hånd for at blive danskstatsborger?</h1>
         <div class="answer">
-          <input type='range' name="range3" min='1' max='5' value='1' step='1' class="n n5" />
+          <input type='range' id="range3" min='1' max='5' value='1' step='1' class="n n5" />
         </div>
         <table class="tex">
           <td>Helt enig</td>
@@ -92,7 +90,7 @@ kan man gå til https://johannesfknudsen.github.io/partitest/ -->
       <div class="section" id="section4">
         <h1>Skal topskatten lettes? <br> (blive lavere)</h1>
         <div class="answer">
-          <input type='range' name="range4" min='1' max='5' value='1' step='1' class="n n5" />
+          <input type='range' id="range4" min='1' max='5' value='1' step='1' class="n n5" />
         </div>
         <table class="tex">
           <td>Helt enig</td>
@@ -105,7 +103,7 @@ kan man gå til https://johannesfknudsen.github.io/partitest/ -->
       <div class="section" id="section5">
         <h1>Skal persionsalderen hæves?</h1>
         <div class="answer">
-          <input type='range' name="range5" min='1' max='5' value='1' step='1' class="n n5" />
+          <input type='range' id="range5" min='1' max='5' value='1' step='1' class="n n5" />
         </div>
         <table class="tex">
           <td>Helt enig</td>
@@ -118,7 +116,7 @@ kan man gå til https://johannesfknudsen.github.io/partitest/ -->
       <div class="section" id="section6">
         <h1>Skal vi generelt have en bedre obrustet politi, og mere grænsekontrol?</h1>
         <div class="answer">
-          <input type='range' name="range6" min='1' max='5' value='1' step='1' class="n n5" />
+          <input type='range' id="range6" min='1' max='5' value='1' step='1' class="n n5" />
         </div>
         <table class="tex">
           <td>Helt enig</td>
@@ -131,7 +129,7 @@ kan man gå til https://johannesfknudsen.github.io/partitest/ -->
       <div class="section" id="section7">
         <div class="submit">
           <h1>Nu har du mulighed for at se resulatet</h1>
-          <button type="button" name="submit">FÅ DIT SVAR</button>
+          <button type="button" id="submit">FÅ DIT SVAR</button>
         </div>
       </div>
     </div>

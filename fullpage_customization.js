@@ -1,9 +1,10 @@
+// Dokumentet til at indstille hvordan fullPage.js opføre sig
 var myFullpage = new fullpage('#fullpage', {
   licenseKey: 'OPEN-SOURCE-GPLV3-LICENSE',
-  anchors: ['1', '2', '3', '4', '5', '6', '7'],
-  // sectionsColor: ['#f5ebeb', '#67c34b', '#7BAABE', '#a25858', '#4651e9', '#b25db4', '#ffc700'],
+  anchors: ['1', '2', '3', '4', '5', '6', '7', 'final'], // Bliver brugt under produktion så man nemt kan gå til den section man ønsker ved at ændre linket
+  // sectionsColor: ['#f5ebeb', '#67c34b', '#7BAABE', '#a25858', '#4651e9', '#b25db4', '#ffc700'], Unødvendigt siden at vi har definineret farverne i css
   navigation: false,
-  navigationPosition: 'right',
+  // navigationPosition: 'right',
 
 
   // //Navigation
